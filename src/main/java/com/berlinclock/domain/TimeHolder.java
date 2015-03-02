@@ -10,9 +10,9 @@ import com.berlinclock.validator.TimeFormatValidator;
  */
 public class TimeHolder {
 
-    private int hours;
-	private int minutes;
-    private int seconds;
+    private Integer hours;
+	private Integer minutes;
+    private Integer seconds;
     
     /**
      * Build TimeHolder object
@@ -47,7 +47,7 @@ public class TimeHolder {
 	 * Return hours 
 	 * @return number of hours
 	 */
-    public int getHours() {
+    public Integer getHours() {
 		return hours;
 	}
     
@@ -55,7 +55,7 @@ public class TimeHolder {
 	 * Return minutes 
 	 * @return number of hours
 	 */
-	public int getMinutes() {
+	public Integer getMinutes() {
 		return minutes;
 	}
 
@@ -63,7 +63,7 @@ public class TimeHolder {
 	 * Return seconds 
 	 * @return number of seconds
 	 */
-	public int getSeconds() {
+	public Integer getSeconds() {
 		return seconds;
 	}
 
